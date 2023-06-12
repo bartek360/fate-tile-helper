@@ -108,7 +108,7 @@ def load_pak(path, data=None):
         else:
             for i, file_size in enumerate(size_arr):
                 data = bs.read_bytes(file_size)
-                file_list.append( (f"{:08x}", data) )
+                file_list.append( (f"{i:08x}", data) )
     return file_list
 
 lzss0_dll = None
