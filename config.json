@@ -1,0 +1,6 @@
+{
+	"tile_import_path": "./ppsspp/memstick/PSP/TEXTURES/ULUS10576/new/*",
+	"tile_export_path": "./cropped/",
+	"image_path": "./image.png",
+	"info_path": "./tiles.json"
+}
